@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/assets/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(/assets/fonts/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: "Variable";
+  src: url(/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 100px;
+}
+
+.list1 {
+  font-family: "Roboto";
+  color: #274c5b;
+}
+.kaci {
+  width: 100%;
+  margin-top: 80px;
+}
+.mesame {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.mesame img {
+  width: 90%;
+}
+.middle {
+  display: grid;
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.abc {
+  border-radius: 15px;
+  width: 480px;
+}
+.plant2 {
+  border-radius: 15px;
+  width: 480px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+  padding: 40px 0;
+}
+
+.erti {
+  background-color: #f9f8f8;
+  padding: 35px;
+  text-align: start;
+  margin-left: 15px;
+}
+
+.feri {
+  color: #274c5b;
+  font-family: "Roboto";
+  margin-bottom: 10px;
+}
+.xeli {
+  color: #525c60;
+  font-family: "Open Sans";
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+}
+
+.plantisnext {
+  background-color: #f9f8f8;
+  padding: 35px;
+  text-align: start;
+  margin-right: 15px;
+}
+.meotxe {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.middleend {
+  margin-top: 35px;
+}
+.aboute {
+  font-family: "Roboto";
+  color: #274c5b;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.about2 {
+  font-family: "Open Sans";
+  color: #525c60;
+  margin-top: 25px;
+}
+.about1 {
+  font-family: "Open Sans";
+  color: #525c60;
+}
+.middleendi {
+  font-family: "Roboto";
+  color: #274c5b;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.middlebolobolo {
+  font-family: "Open Sans";
+  color: #525c60;
+}
+.mushketeri {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+  margin: 0 150px;
+}
+.mushketeri1 {
+  display: grid;
+}
+.eins {
+  color: #274c5b;
+  font-family: "Roboto";
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+.drei {
+  color: #274c5b;
+  font-family: "Roboto";
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.vier {
+  color: #525c60;
+  font-family: "Variable";
+  margin-bottom: 27px;
+}
+.mushketeri2 {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+.oriatasi {
+  display: flex;
+  width: 160px;
+  margin-left: 35%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.funf {
+  color: #525c60;
+  font-family: "Variable";
+  margin-bottom: 15px;
+  text-align: center;
+}
+.sechs {
+  color: #274c5b;
+  font-family: "Roboto";
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+.sieben {
+  color: #525c60;
+  font-family: "Variable";
+  margin-bottom: 20px;
+}
+.line {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  margin: 15px 0;
+}
+.line span {
+  width: 100%;
+  height: 100%;
+  background-color: #d4d4d4;
+
+  position: absolute;
+}
+footer {
+  display: flex;
+  /* text-align: center;
+  align-items: center; */
+  justify-content: center;
+  margin-bottom: 20px;
+}
